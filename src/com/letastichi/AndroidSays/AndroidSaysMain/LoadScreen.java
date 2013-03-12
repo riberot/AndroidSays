@@ -1,7 +1,9 @@
-package com.letastichi.AndroidSays;
+package com.letastichi.AndroidSays.AndroidSaysMain;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import com.letastichi.AndroidSays.R;
 
 public class LoadScreen extends Activity {
     /**
@@ -11,5 +13,8 @@ public class LoadScreen extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+        Intent intent = new Intent(getApplicationContext(), MainMenu.class);
+        startActivity(intent);
     }
 }
