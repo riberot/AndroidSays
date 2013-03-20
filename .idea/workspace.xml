@@ -23,9 +23,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" name="Default" comment="" />
     <ignored path="AndroidSays.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1363749392463" ignored="false" />
