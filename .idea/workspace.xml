@@ -23,7 +23,10 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" name="Default" comment="" />
+    <list default="true" id="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Code\AndroidSays\res\drawable-background\TreasureChestAttemptTwo.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+    </list>
     <ignored path="AndroidSays.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1363749392463" ignored="false" />
@@ -34,7 +37,7 @@
     <file path="$PROJECT_DIR$/../daniels-fieldbook-driver-edition/Fieldbook-Driver-Edition/gen/com/fieldbookerp/fbdriver/R.java" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1363051578312" ignored="false" />
     <file path="/LoadScreen.java" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1363051714813" ignored="false" />
     <file path="/MainMenu.java" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1363052516877" ignored="false" />
-    <file path="/main.xml" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1363053598268" ignored="false" />
+    <file path="/main.xml" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1363750658541" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +108,7 @@
       <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="34" selection-start="329" selection-end="329" vertical-scroll-proportion="0.123636365">
+            <state line="6" column="43" selection-start="338" selection-end="338" vertical-scroll-proportion="0.123636365">
               <folding />
             </state>
           </provider>
@@ -229,6 +232,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidSays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidSays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-background" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,7 +426,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -421,7 +442,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15261473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -528,7 +549,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="329" selection-end="329" vertical-scroll-proportion="0.123636365">
+        <state line="6" column="43" selection-start="338" selection-end="338" vertical-scroll-proportion="0.123636365">
           <folding />
         </state>
       </provider>
