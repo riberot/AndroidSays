@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import com.letastichi.AndroidSays.R;
 
+import java.util.logging.Handler;
+
 public class LoadScreen extends Activity {
     /**
      * Called when the activity is first created.
@@ -12,9 +14,11 @@ public class LoadScreen extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.load_screen);
 
-        Intent intent = new Intent(getApplicationContext(), MainMenu.class);
-        startActivity(intent);
+        if(savedInstanceState == null){
+            Intent intent = new Intent(getApplicationContext(), MainMenu.class);
+            startActivity(intent);
+        }
     }
 }
