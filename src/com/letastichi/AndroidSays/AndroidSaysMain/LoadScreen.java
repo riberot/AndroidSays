@@ -3,9 +3,8 @@ package com.letastichi.AndroidSays.AndroidSaysMain;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import com.letastichi.AndroidSays.R;
-
-import java.util.logging.Handler;
 
 public class LoadScreen extends Activity {
     /**
@@ -17,8 +16,24 @@ public class LoadScreen extends Activity {
         setContentView(R.layout.load_screen);
 
         if(savedInstanceState == null){
-            Intent intent = new Intent(getApplicationContext(), MainMenu.class);
-            startActivity(intent);
+                new Handler().postDelayed(new Runnable(){
+                    public void run(){
+                        Intent intent = new Intent(getApplicationContext(), MainMenu.class);
+                        startActivity(intent);
+                    }
+                }, 2000);
         }
+    }
+
+    @Override
+    public void onPause(){
+        super.onPause();
+        LoadScreen.this.finish();
+    }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+        finish();
     }
 }
