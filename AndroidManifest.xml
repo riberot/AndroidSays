@@ -17,5 +17,6 @@
         <activity android:name="com.letastichi.AndroidSays.AndroidSaysMain.MainMenu"></activity>
         <activity android:name=".AndroidSaysMain.GameScreen"/>
         <activity android:name=".AndroidSaysMain.HelpScreen"/>
+        <activity android:name=".AndroidSaysMain.AboutScreen"/>
     </application>
 </manifest> 

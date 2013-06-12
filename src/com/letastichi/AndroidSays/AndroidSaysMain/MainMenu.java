@@ -35,6 +35,7 @@ public class MainMenu extends Activity {
     }
 
     public void aboutTheGame(View view){
+        System.out.println("DEFINITELY INSIDE HERE!");
         intent = new Intent(view.getContext(), AboutScreen.class);
         startActivity(intent);
     }
