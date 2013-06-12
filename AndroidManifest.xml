@@ -15,5 +15,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.letastichi.AndroidSays.AndroidSaysMain.MainMenu"></activity>
+        <activity android:name=".AndroidSaysMain.GameScreen"/>
+        <activity android:name=".AndroidSaysMain.HelpScreen"/>
     </application>
 </manifest> 
