@@ -24,17 +24,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/pixoid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/pixoid_two.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/AboutScreen.java" afterPath="$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/AboutScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/GameScreen.java" afterPath="$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/GameScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/HelpScreen.java" afterPath="$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/HelpScreen.java" />
+      <change type="DELETED" beforePath="D:\code\AndroidSays\res\drawable-ldpi\pixoid_two.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/game_screen.xml" afterPath="$PROJECT_DIR$/res/layout/game_screen.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\code\AndroidSays\res\drawable-ldpi\Pixoid.png" afterPath="$PROJECT_DIR$/res/drawable-ldpi/pixoid.png" />
     </list>
     <ignored path="AndroidSays.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1371096674553" ignored="false" />
+    <file path="/Dummy.txt" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1371131164124" ignored="false" />
     <file path="$PROJECT_DIR$/../AndroidProgramming/Android/android-sdk/samples/android-10/ApiDemos/.idea/workspace.xml" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1363053687162" ignored="false" />
     <file path="$PROJECT_DIR$/../AndroidProgramming/Android/android-sdk/samples/android-10/ApiDemos/.idea/compiler.xml" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1363049396799" ignored="false" />
     <file path="$PROJECT_DIR$/../AndroidProgramming/Android/android-sdk/samples/android-10/ApiDemos/.idea/misc.xml" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1363049845952" ignored="false" />
@@ -51,7 +48,7 @@
     <file path="/AboutScreen.java" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1371096856680" ignored="false" />
     <file path="/GameScreen.java" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1371096887835" ignored="false" />
     <file path="/HelpScreen.java" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1371096912831" ignored="false" />
-    <file path="/game_screen.xml" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1371100289877" ignored="false" />
+    <file path="/game_screen.xml" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1371128860142" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -103,6 +99,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -136,7 +133,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="38" selection-start="225" selection-end="225" vertical-scroll-proportion="0.20731707">
+            <state line="6" column="40" selection-start="267" selection-end="267" vertical-scroll-proportion="0.15863141">
               <folding />
             </state>
           </provider>
@@ -148,7 +145,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="-3.06">
+            <state line="9" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -327,8 +324,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -559,7 +556,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925257" sideWeight="0.6759388" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925257" sideWeight="0.6773296" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -567,12 +564,12 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32545203" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3240612" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3231623" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16301547" sideWeight="0.6759388" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16301547" sideWeight="0.6773296" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32267037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15250966" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -759,7 +756,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="-3.06">
+        <state line="9" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -769,7 +766,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="225" selection-end="225" vertical-scroll-proportion="0.20731707">
+        <state line="6" column="40" selection-start="267" selection-end="267" vertical-scroll-proportion="0.15863141">
           <folding />
         </state>
       </provider>
