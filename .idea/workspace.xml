@@ -24,10 +24,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\code\AndroidSays\res\drawable-ldpi\pixoid_two.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/game_screen.xml" afterPath="$PROJECT_DIR$/res/layout/game_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\code\AndroidSays\res\drawable-ldpi\Pixoid.png" afterPath="$PROJECT_DIR$/res/drawable-ldpi/pixoid.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main_menu.xml" afterPath="$PROJECT_DIR$/res/layout/main_menu.xml" />
     </list>
     <ignored path="AndroidSays.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +41,7 @@
     <file path="/a.dummy" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1364062774654" ignored="false" />
     <file path="/a.xml" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1370914387720" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1370887561622" ignored="false" />
-    <file path="/main_menu.xml" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1371061431484" ignored="false" />
+    <file path="/main_menu.xml" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1371139567207" ignored="false" />
     <file path="/AboutScreen.java" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1371096856680" ignored="false" />
     <file path="/GameScreen.java" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1371096887835" ignored="false" />
     <file path="/HelpScreen.java" changelist="12092aab-a567-4ddc-8d7d-f8c53c6e6e91" time="1371096912831" ignored="false" />
@@ -127,13 +124,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game_screen.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="game_screen.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/game_screen.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="40" selection-start="267" selection-end="267" vertical-scroll-proportion="0.15863141">
+            <state line="6" column="4" selection-start="231" selection-end="268" vertical-scroll-proportion="-2.04">
               <folding />
             </state>
           </provider>
@@ -145,7 +142,28 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+            <state line="9" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="-3.06">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainMenu.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/MainMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="36" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_menu.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/main_menu.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="67" selection-start="801" selection-end="801" vertical-scroll-proportion="0.6618005">
               <folding />
             </state>
           </provider>
@@ -177,12 +195,12 @@
         <option value="$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/LoadScreen.java" />
         <option value="$PROJECT_DIR$/res/layout/help_screen.xml" />
         <option value="$PROJECT_DIR$/res/layout/about_screen.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main_menu.xml" />
         <option value="$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/AboutScreen.java" />
         <option value="$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/GameScreen.java" />
         <option value="$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/HelpScreen.java" />
         <option value="$PROJECT_DIR$/res/layout/game_screen.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main_menu.xml" />
       </list>
     </option>
   </component>
@@ -551,8 +569,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -694,23 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="337" selection-end="354" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main_menu.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="39" selection-start="808" selection-end="808" vertical-scroll-proportion="-8.16">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/AboutScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="46" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
@@ -737,26 +738,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/GameScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="43" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/LoadScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="46" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/load_screen.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -766,7 +750,41 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="40" selection-start="267" selection-end="267" vertical-scroll-proportion="0.15863141">
+        <state line="6" column="4" selection-start="231" selection-end="268" vertical-scroll-proportion="-2.04">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/GameScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="43" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/load_screen.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="-3.06">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/letastichi/AndroidSays/AndroidSaysMain/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="36" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main_menu.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="67" selection-start="801" selection-end="801" vertical-scroll-proportion="0.6618005">
           <folding />
         </state>
       </provider>

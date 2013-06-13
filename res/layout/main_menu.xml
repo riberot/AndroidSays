@@ -4,24 +4,34 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center">
+    android:layout_gravity="center"
+    android:background="@drawable/pixoid_black_background">
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Play Game"
-        android:onClick="startTheGame">
+        android:onClick="startTheGame"
+        android:background="#545454"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
     </Button>
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="How to Play"
-        android:onClick="howToPlay">
+        android:onClick="howToPlay"
+        android:background="#545454"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
     </Button>
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="About"
-        android:onClick="aboutTheGame">
+        android:onClick="aboutTheGame"
+        android:background="#545454"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
     </Button>
 </LinearLayout>
