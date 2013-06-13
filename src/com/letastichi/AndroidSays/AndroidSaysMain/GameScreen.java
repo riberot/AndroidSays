@@ -2,6 +2,7 @@ package com.letastichi.AndroidSays.AndroidSaysMain;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.letastichi.AndroidSays.R;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,5 +14,6 @@ import android.os.Bundle;
 public class GameScreen extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.game_screen);
     }
 }
